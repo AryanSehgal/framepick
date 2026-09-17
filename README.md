@@ -1,9 +1,24 @@
 # Framepick
 
+**Framepick is a reusable, image-first React component library** for selecting and inspecting image files. It ships with a live playground that demonstrates its interaction states, validation rules, and integration API.
+
+**Try it live:** [aryan-sehgal-framepick.netlify.app](https://aryan-sehgal-framepick.netlify.app/)
+
 An image-first React file picker with a live playground. Built from scratch using a native file input, drag events, object URLs, and the browser's image decoder.
+Built from scratch using a native file input, drag events, object URLs, and the browser's image decoder.
 
 **Author:** Aryan Sehgal  
 **Status:** v0.1.0 · package downloadable locally; not published to npm
+
+## Live playground
+
+Visit the [Framepick Playground](https://aryan-sehgal-framepick.netlify.app/) to try multi-image selection, drag and drop, thumbnail previews, validation feedback, single-image mode, selection limits, accent colours, and disabled states.
+
+The playground runs entirely in the browser. Images stay on the visitor's device; the demo has no uploads, accounts, analytics, or third-party image requests.
+
+## Component library
+
+The reusable package is named `@aryansehgal/framepick`. The component accepts native browser `File` objects and can be used in any React 18 or React 19 application. The playground is a separate showcase application, not a requirement for using the library.
 
 ## Features
 
@@ -18,7 +33,19 @@ An image-first React file picker with a live playground. Built from scratch usin
 - Object URLs revoked on removal/unmount; asynchronous file batches serialized.
 - Responsive demo with settings, integration examples, and a downloadable library.
 
-Files remain local in this demo. No upload service, account, analytics, or third-party image request is involved. Selection disappears when you reload.
+Selections are session-only and disappear when the page reloads.
+
+## Screenshots to add
+
+Adding a few focused screenshots to this README will make the GitHub project easier to evaluate at a glance. Capture these from the live playground and save them under `docs/screenshots/` before embedding them here:
+
+- **`empty-state.png`** — the initial dropzone and the “Make it yours” controls.
+- **`multi-image-preview.png`** — several selected images with thumbnails, dimensions, file sizes, and remove controls.
+- **`validation-feedback.png`** — an unsupported, duplicate, or oversized-file rejection message.
+- **`single-image-mode.png`** — the picker configured for one image.
+- **`integration-tab.png`** — the Integration tab showing the installation command and React usage example.
+
+Recommended README placement: one full-width playground image immediately after this section, followed by two smaller images for validation and integration.
 
 ## Run the project
 
