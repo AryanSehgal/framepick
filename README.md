@@ -85,7 +85,3 @@ HEIC/HEIF and SVG are excluded. The pixel limit is checked after browser decodin
 ## Deployment and verification
 
 See [deployment](docs/DEPLOYMENT.md), [architecture](docs/ARCHITECTURE.md), and [testing](docs/TESTING.md). Use a public demo URL in your résumé only after confirming signed-out access. A private Sites preview is not a public portfolio link.
-
-## License
-
-MIT for original Framepick code. Starter dependencies retain their own licenses.
