@@ -1,0 +1,115 @@
+.fp-root,
+.fp-root * {
+  box-sizing: border-box;
+}
+.fp-preview-button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  position: relative;
+  cursor: zoom-in !important;
+}
+.fp-preview-button img {
+  display: block;
+}
+.fp-expand {
+  position: absolute;
+  left: 8px;
+  bottom: 7px;
+  background: #fffefb;
+  border: 1px solid #e0e5ed;
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.fp-preview-button:hover .fp-expand,
+.fp-preview-button:focus-visible .fp-expand {
+  opacity: 1;
+}
+.fp-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  border: 1px solid #dbe2ef;
+  border-radius: 14px;
+  padding: 0;
+  max-width: 900px;
+  width: calc(100% - 64px);
+  max-height: 90vh;
+  background: white;
+  color: #17212f;
+  box-shadow: 0 30px 100px #11182755;
+  font-family: inherit;
+}
+.fp-dialog::backdrop {
+  background: #111827a6;
+  backdrop-filter: blur(5px);
+}
+.fp-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e4e8ef;
+}
+.fp-dialog-header > div {
+  min-width: 0;
+}
+.fp-dialog-header h2 {
+  font-size: 16px;
+  font-weight: 550;
+  margin: 0 0 5px;
+  overflow-wrap: anywhere;
+}
+.fp-dialog-header p {
+  font-size: 12px;
+  color: #657080;
+  margin: 0;
+}
+.fp-dialog-header button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #dce2ed;
+  border-radius: 7px;
+  background: #f8faff;
+  flex-shrink: 0;
+  font-size: 22px;
+}
+.fp-dialog-image {
+  display: grid;
+  place-items: center;
+  background: repeating-conic-gradient(#f3f4f8 0% 25%, #fafbfc 0% 50%) 50%/20px
+    20px;
+  padding: 15px;
+}
+.fp-dialog-image img {
+  max-width: 100%;
+  max-height: 65vh;
+  object-fit: contain;
+}
+.fp-dialog-footer {
+  font-size: 12px;
+  color: #657080;
+  margin: 0;
+  padding: 14px 24px;
+}
+.fp-root .fp-browse {
+  border-color: var(--fp-blue);
+}
+.fp-root .fp-browse:hover {
+  background: var(--fp-blue);
+  filter: brightness(0.94);
+}
+@media (prefers-reduced-motion: reduce) {
+  .fp-expand {
+    transition: none;
+  }
+}

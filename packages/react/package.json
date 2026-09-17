@@ -1,0 +1,37 @@
+{
+  "name": "@aryansehgal/framepick",
+  "version": "0.1.0",
+  "description": "An accessible, image-first React file picker. Built from scratch with native browser APIs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Aryan Sehgal",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/framepick.js",
+  "module": "./dist/framepick.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/framepick.js"
+    },
+    "./style.css": "./dist/framepick.css"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "keywords": [
+    "react",
+    "image-picker",
+    "file-picker",
+    "accessible",
+    "typescript"
+  ]
+}
