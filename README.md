@@ -1,4 +1,4 @@
-# Framepick
+<img width="2522" height="3034" alt="SS9" src="https://github.com/user-attachments/assets/e3dc9ba3-fbcd-414f-a6fb-6f4368df5dfd" /># Framepick
 
 **Framepick is a reusable, image-first React component library** for selecting and inspecting image files. It ships with a live playground that demonstrates its interaction states, validation rules, and integration API.
 
@@ -34,6 +34,21 @@ The reusable package is named `@aryansehgal/framepick`. The component accepts na
 - Responsive demo with settings, integration examples, and a downloadable library.
 
 Selections are session-only and disappear when the page reloads.
+
+## User Experience
+
+| Screenshot | Description |
+| -------- | -------- |
+| <img width="3024" height="2526" alt="SS" src="https://github.com/user-attachments/assets/56dd20a7-75b4-4bdd-9581-e6afb555947d" />
+   | The initial dropzone and the “Make it yours” controls.   |
+| <img width="2522" height="3418" alt="SS7" src="https://github.com/user-attachments/assets/d7b5a2c7-a8b9-40c2-963e-5e3d3330c769" />
+   | Several selected images with thumbnails, dimensions, file sizes, and remove controls.  |
+| <img width="2522" height="3202" alt="SS6" src="https://github.com/user-attachments/assets/023e9363-58c4-4fd7-9f98-3e00b009db6b" />
+  | Validation error message on duplicate files.  |
+| <img width="2522" height="3202" alt="SS8" src="https://github.com/user-attachments/assets/e21ee3bc-88a9-476b-8999-fa3ddf4db0b6" />
+   | Picker configured for one image.   |
+| <img width="2522" height="3034" alt="SS9" src="https://github.com/user-attachments/assets/ce847650-35ea-4b8e-9ac8-55df6c8ea769" />
+   | Integration tab showing the installation command and React usage example.  |
 
 ## Run the project
 
