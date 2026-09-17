@@ -35,18 +35,6 @@ The reusable package is named `@aryansehgal/framepick`. The component accepts na
 
 Selections are session-only and disappear when the page reloads.
 
-## Screenshots to add
-
-Adding a few focused screenshots to this README will make the GitHub project easier to evaluate at a glance. Capture these from the live playground and save them under `docs/screenshots/` before embedding them here:
-
-- **`empty-state.png`** — the initial dropzone and the “Make it yours” controls.
-- **`multi-image-preview.png`** — several selected images with thumbnails, dimensions, file sizes, and remove controls.
-- **`validation-feedback.png`** — an unsupported, duplicate, or oversized-file rejection message.
-- **`single-image-mode.png`** — the picker configured for one image.
-- **`integration-tab.png`** — the Integration tab showing the installation command and React usage example.
-
-Recommended README placement: one full-width playground image immediately after this section, followed by two smaller images for validation and integration.
-
 ## Run the project
 
 Requires Node.js 22.13+ and npm. Node 25.2.1 was used during initial development.
